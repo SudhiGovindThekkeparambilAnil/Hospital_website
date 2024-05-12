@@ -1,0 +1,925 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Slabo+27px&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Montserrat',sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #f2f2f2;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    }
+
+.nav_header{
+    background-color: #F8F1ED;
+}
+
+.appointment{
+    width:200px;
+    height: 50px;
+    border: 1px solid #982132;
+    background-color: #982132;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-top: 13px;
+    margin-left: 80px;
+    transition: background-color 0.3s;
+    
+}
+.appointment:hover{
+    background-color: #35060c;
+}
+
+nav img {
+    height: 40px;
+    margin-right: 40px;
+}
+
+nav ul {
+    list-style: none;
+    margin-left: 60px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 40px;
+   }
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color:#e21735;
+}
+
+#logo{
+    width: 120px;
+    height: 85px;
+    margin-left: 20px;
+    
+}
+.timing{
+    color: #000000;
+    font-size: 19px;
+    margin-left: 280px;  
+}
+
+.firstH1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+    color: #ffffff;
+    font-size: 3em; 
+    margin: 0;
+}
+
+.secondH1{
+    position: absolute;
+    text-align: center;
+    font-size: 1.2em;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    color: #ffffff;
+    transform: translate(-50%, -50%);
+    padding-top: 180px;
+    margin: 0;
+}
+
+.clinic_image {
+    position: relative;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+}
+
+.container > div {
+    flex: 1; 
+    margin-right: 50px;
+}
+
+.container > div:last-child {
+    margin-right: 0;
+}
+
+.container > div > section{
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.welcome_text{
+    margin-bottom: 35px;
+}
+
+.welcome{
+   margin-top: 20px;
+   font-size: 30px;
+}
+
+.welcome_h3{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.welcome_para{
+    margin-top: 20px; 
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.clinic_image img {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+    padding-left: 150px;
+    
+}
+
+/* Banner styles */
+.banner {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.button-container {
+    display: flex;
+  }
+  
+  .button-box {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .appointment-button, .enquiry-button {
+    width:250px;
+    height: 80px;
+    display: block;
+    text-align: center;
+    padding: 25px 20px;
+    background-color: #35060c;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .appointment-button:hover {
+    background-color: #35060c;
+    color: #ffffff;
+    border: 2px solid  white;
+  }
+
+  .enquiry-button:hover{
+    background-color: #ffffff;
+    color: #35060c;
+    border: 2px solid  #35060c;
+  }
+
+  .appointment-button{
+    background-color: #ffffff;
+    color: #35060c;
+    font-weight: bolder;
+    border: 2px solid  #35060c;
+    margin-left: 390px;
+    transition: background-color 0.3s;
+  }
+
+  .enquiry-button{
+    background-color:  #35060c;
+    color: white;
+    font-weight: bolder;
+    border: 2px solid  #ffffff;
+  }
+
+
+/* Doctor Section */
+.doctor_section{
+    text-align: center;
+    margin-top: 30px;
+}
+.doctor-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .doctor {
+    text-align: center;
+    margin: 60px;
+    max-width: 250px;
+  }
+  .doctor img {
+    max-width: 100%;
+    height: auto;
+  }
+  .doctor h2 {
+    margin-bottom: 5px;
+  }
+  .doctor p {
+    margin-bottom: 10px;
+  }
+  .view-more {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+  .view-more button {
+    padding: 10px 20px;
+    background-color: #6b0d19;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+    transition: background-color 0.3s;
+  }
+  .view-more button:hover {
+    background-color: #35060c;
+  }
+
+
+/* Contact Styles */
+
+.contactH1{
+    position: absolute;
+    top:  calc(50% - 40px); 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+    color: #ffffff;
+    font-size: 3em; 
+    margin: 0;  
+}
+
+.con_H1{
+    position: absolute;
+    text-align: center;
+    font-size: 1.2em;
+    z-index: 1;
+    top: calc(50% - 40px);
+    left: 50%;
+    color: #ffffff;
+    transform: translate(-50%, -50%);
+    padding-top: 180px;
+    margin: 0;
+}
+
+/* Form Styles */
+
+.contact-details {
+    margin: 30px 80px 40px 80px;
+    display: flex;
+    justify-content:center;
+    background-color: #f7f6f6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+   }
+
+.contact-info {
+    width: 70%;
+    max-width: 1200px;
+    }
+
+#contactForm{
+    margin-top: 30px;
+}
+
+.form-column {
+    width: 50%;
+    float: left;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+textarea,
+select {
+    width: 85%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    width: 93%;
+    margin-top: 14px;
+    padding: 11px 20px;
+    background-color:#6b0d19;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #35060c;
+    font-weight: bold;
+}
+
+.contact_heading{
+    text-align: center;
+    font-size: 30px;
+}
+
+.contact_p{
+    text-align: center;
+    font-size: 16px;
+    padding-top: 10px;
+}
+.agree_box{
+    font-size: 15px;
+}
+
+
+
+/* Accordion Styles */
+.accordion{
+    margin: 30px;
+}
+.accordion-item {
+    padding: 3px;
+}
+
+.accordion-item-title {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f0f0f0;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.5s;
+}
+
+.accordion-item-title:hover {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #6b0d19;
+    color: white;
+    font-weight: bold;
+}
+
+
+.accordion-item-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]:checked + .accordion-item-title + .accordion-item-content {
+    max-height: 1000px;
+}
+
+
+/* Footer styles */
+footer {
+    background-color: #c6bdbd;
+    color: #000000;
+    padding: 20px;
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+}
+
+.about_para{
+    line-height: 20px;
+}
+
+footer h3{
+    font-size: 24px;
+    color: #982132;
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+}
+
+.footer-container > div {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-container > div:last-child {
+    margin-right: 0;
+}
+.footer-container > div > p{
+  padding-top: 20px;
+}
+.links{
+    margin-left: 30px
+}
+footer nav {
+    display: block;
+    padding-top: 20px;
+}
+.footer-container>div> nav a:first-child {
+   padding-top: 0px;
+}
+.footer-container>div> nav a {
+    color: #070707;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+    padding-top: 10px;
+
+}
+
+.footer-container>div> nav a:hover {
+    color: #35060c;
+    font-weight: bold;
+}
+
+#copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+
+
+
+/* Departments page */
+
+
+.departments {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.depart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.depart-container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:30px;
+    padding-top: 20px;
+    padding-bottom: 70px
+}
+
+.depart img {
+    width: 325px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.depart-2 img {
+    width: 325px;
+    height: 200px;
+    border-radius: 8px; 
+}
+
+/* .depart img:hover {
+    transform: rotateY(90deg);
+} */
+
+.depart h3{
+    text-align: center;
+    padding-right: 23px;
+    padding-top: 5px;
+}
+
+.depart-2 h3{
+    text-align: center;
+    padding-right: 23px;
+    padding-top: 5px;
+}
+
+.cardio img {
+    max-width: 25%;
+    height: auto;
+  }
+.cardio,.derma,.gener,.ortho,.radio,.uro{
+    padding-right: 30px;
+}
+.derma img{
+    max-width: 25%;
+    height: auto;
+}
+
+.gener img {
+    max-width: 25%;
+    height: auto;
+}
+
+.ortho img {
+    max-width: 25%;
+    height: auto;
+}
+
+.radio img {
+    max-width: 25%;
+    height: auto;
+}
+
+.uro img {
+    max-width: 24%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+ 
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+ 
+
+#blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.blog-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.blog-heading span{
+    color: #f33c3c;
+}
+.blog-heading h3{
+    font-size: 2.4rem;
+    color: #2b2b2b;
+    font-weight: 600;
+}
+.blog-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+ 
+.blog-box{
+    width:350px;
+    background-color: #ffffff;
+    border: 1px solid #ececec;
+    margin: 20px 20px;
+ 
+}
+.blog-img{
+    width:100%;
+    height: auto;
+}
+.blog-img img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.blog-text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.blog-text span{
+    color: #f33c3c;
+    font-size: 0.9rem;
+}
+.blog-text .blog-title{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #272727;
+    font-weight: bold;
+    padding-top:8px ;
+}
+.blog-text p{
+    color: #9b9b9b;
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+}
+.blog-text a{
+    color: #0f0f0f;
+}
+.blog-text a:hover{
+    color: #c74242;
+    font-weight: bold;
+    transition: all ease 0.3s;
+}
+ 
+ 
+
+
+
+
+
+#doctor_gallery .doctordiv{
+    display: flex;
+    background-color: #F8F1ED;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    margin: 40px;
+    padding: 5px;
+}
+#doctor_gallery .doctordiv .doctordetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 89px;
+}
+#doctor_gallery .doctordiv .doctordetails .doctorname{
+    font-size: 32px;
+    font-weight: 700;
+}
+#doctor_gallery .doctordiv .doctorimg{
+    background-color: #982132;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    width: 200px;
+    padding: 10px 6px 8px 5px;
+}
+#doctor_gallery .doctordiv .doctorimg img{
+    width: 160px;
+    height: 210px;
+}
+#doctorh1{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+}
+tbody td{
+    padding: 5px;
+}
+.appointment:hover{
+    background-color: #441017;
+}
+
+@media only screen and (max-width:768px)
+{
+    #logo{
+        margin-left: 0px;
+        margin-top: 18%;
+    }
+    nav img{
+        margin-right: 0px;
+    }
+    nav{
+        flex-direction: column;
+        text-align: center;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 40px;
+        padding-right: 18px;
+        padding-bottom: 23px;
+    }
+    nav ul li{
+        padding: 6px;
+        display: block;
+    }
+    .appointment{
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding-left: 0px;
+        padding-top: 0px;
+        margin-left: 0px;
+    
+        transition: background-color 0.3s;
+    }
+    #doctor_gallery .doctordiv{
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+        
+    }
+    #doctor_gallery .doctordiv .doctordetails {
+        padding-left: 0;
+        text-align: center;
+    }
+    #doctor_gallery .doctordiv .doctorimg{
+       
+        width: 160px;
+        margin-bottom: 20px;
+    }
+    #doctor_gallery .doctordiv .doctorimg img {
+        width: 100%;
+        height: auto;
+    }
+    #doctorh1 {
+        padding-top: 20px;
+        font-size: 32px;
+    }
+    footer div{
+        width: 100%;
+    }
+    footer .links{
+        margin-left: 0px;
+    }
+   .footer-container{
+        /* float: none; */
+        display: block;
+        margin-left: 0px;
+    }
+    .footer-container > div {
+        text-align: center;
+        padding: 18px 0px;
+    }
+}
+
+
+
+
+@media(max-width:1250px){
+ 
+    .blog-box{
+        width: 300px;
+    }
+} 
+@media(max-width:1100px){
+    .blog-box{
+        width:70%;
+    }
+}
+ 
+@media(max-width:768px){
+   
+    .blog-box{
+        margin: 20px 10px;
+        width: 100%;
+    }
+    #blog{
+        padding:20px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .banner {
+      display: none;
+    }
+    
+    .button-container {
+      display: none;
+    }
+  
+    .container {
+      flex-direction: column;
+    }
+  
+    .welcome_text, .clinic_image {
+      width: 100%;
+    }
+  
+    .welcome_text {
+      margin-bottom: 20px;
+    }
+  
+    .doctor-container {
+      flex-direction: column;
+    }
+  
+    .doctor {
+      margin-bottom: 20px;
+    }
+
+   
+    .form-column {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+     
+      .contact_heading{
+        font-size: 22px; 
+      }
+      
+      .accordion-item-title {
+        font-size: 18px;
+      }
+    
+      .accordion-item-content {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        font-size: 16px;
+      }
+    
+      .accordion-item {
+        margin-bottom: 15px;
+      }
+
+
+
+
+      .depart-container,
+    .depart-container-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .depart,
+    .depart-2 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .departments {
+        text-align: center;
+    }
+
+    .gener,
+    .cardio,
+    .derma,
+    .ortho,
+    .uro,
+    .radio {
+        width: 100%;
+        max-width: 300px; 
+        height: auto;
+    }
+  }
+  
