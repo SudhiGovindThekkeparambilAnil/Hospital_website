@@ -1,2 +1,2 @@
 # Hospital_website
-This is the front end design of a hospital website using html and css.
+This is the responsive front-end design of a hospital website using HTML and CSS.
